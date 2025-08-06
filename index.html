@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="app">
+    <h1 class="brand">CodeAlpha</h1>
+    <div class="todo-container">
+      <h1> My To-Do List</h1>
+      <form id="task-form" autocomplete="off">
+        <input type="text" id="task-input" placeholder="What do you want to do today?" required />
+        <button type="submit"><b>Add Task</b></button>
+      </form>
+      <ul id="task-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
